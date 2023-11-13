@@ -15,15 +15,17 @@ Seperate preparation into account creation, file downloads, and software downloa
 However, you can format this as you wish.
 An example is provided below.
 -->
-## 1. Create an account
-- Navigate to [website](https://www.google.com) and sign up for an account if you don't already have one.
+## 1. Create a GitHub Account
+- [Navigate to GitHub](https://github.com/) and sign up for an account if you don’t already have one.
 - After registering, sign in to your account.
 
-## 2. Get the data
-You will have an opportunity to download the data during the workshop; however, if you would like to do so ahead of time, it can be downloaded [here](https://www.google.com).
+## 2. Install Jekyll
+This hands-on workshop uses [Jekyll](https://jekyllrb.com/docs/installation/). Please install *Jekyll* in advance of the workshop to be able to participate in it to the fullest extent.
 
-## 3. Get the software
-This hands-on workshop uses [Software Name](https://www.google.com). Please download *Software Name* in advance of the workshop to be able to participate in it to the fullest extent.
+<!-- 
+## 3. Download website template
+You will have an opportunity to download the data during the workshop; however, if you would like to do so ahead of time, it can be downloaded [here](https://www.google.com).
+-->
 
 {: .warning }
 > This is a warning message. You can use to to mention things like:
