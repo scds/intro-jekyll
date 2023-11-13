@@ -1,6 +1,6 @@
 # Less is More: Create Minimal Websites with Jekyll
 
-Materials for the DMS workshop: ** Less is More: Create Minimal Websites with Jekyll **  
+Materials for the DMS workshop: **Less is More: Create Minimal Websites with Jekyll**.
 
 This repository contains workshop files, as well as files used to create the [workshop webpage](https://scds.github.io/intro-jekyll/) with GitHub Pages. 
 
