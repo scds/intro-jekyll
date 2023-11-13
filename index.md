@@ -15,27 +15,29 @@ Add, edit, or remove any content below for the workshop in question. -->
 <img src="assets/img/titleSlide.png" alt="Workshop Title Slide" width="100%">
 
 <!-- Main header -->
-# Getting started with ___.
+# Less Is More: Create Minimal Websites with Jekyll.
 
-This is a short description about the topic of the workshop. Replace this text with your own.
+In this workshop, students will learn how to build a lightweight website using Jekyll and GitHub Pages.
 
-In this tutorial, you will learn about ______.
+Website-building platforms, like Squarespace and Wordpress, while convenient and user-friendly, can be costly, have limited customizability, and require continuous updates to stay afloat. Static sites, on the other hand, are pure html, css, and javascript. As such, they are free to build, endlessly customizable and, once generated, require little to no maintenance.
+
+Jekyll is an open-source static site generator that offers the best of both worlds. In this workshop, students will start with a basic Jekyll website template. Then, we will walk through how to create and edit pages in Markdown, an easy to understand word processing language (like simpler html) that was created for blogging. Next we will explore how to customize the layout and design with CSS. Finally, students will learn how to deploy and host their finished site (for free!) on GitHub Pages.
+
 
 ## Prerequisites
 
 <!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->
 - A [GitHub.com](https://www.github.com) account.
-- Installation of [Python](https://www.python.org/downloads/). (This will be covered in the [Preparation](preparation) page)
+- Installation of [Jekyll](https://www.python.org/downloads/). (This will be covered in the [Preparation](preparation) page)
 - Some familiary with **softwareName/topic here**
 
 <!-- What will the student learn to do, learn to use, etc. -->
 ## Learning Objectives
 By the end of this workshop, you will be able to:
-- Learning objective 1
-- Learning objective 2
-- Learning objective 3
-- Learning objective 4
-- You can add more here.
+- Create a GitPages website with Jekyll
+- Choose a Jekyll theme
+- Customize the CSS (styling)
+- Create and edit page layout
 
 <!-- Estimate the time the workshop will take to complete. Feel free to remove this. -->
 ## Duration (optional)
