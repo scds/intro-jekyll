@@ -40,19 +40,25 @@ A small description about the lesson.
 
 See: [Jekyll's Quickstart Guide](https://jekyllrb.com/docs/) for more detailed instructions.
 
-## Another sub-topic
+## Modify Gemfile
 
 Include text here.
 
-## Another sub-topic
+## Modify YML file
 
 Include text here.
 
 <!-- Summarize your learning objectives here. It acts as a reminder to the learner about what they just learned, as well as a checklist for you to make sure you covered everything you wished to cover. -->
+
+## Test file (locally)
+
+
 ## Key Points / Summary
 
-- Remind the student about what they just learned.
-- You can also note down any key information to keep in mind.
+- Local (computer) vs. Remote (GitHub)
+- Push vs. pull
+- Gemfile
+- YML file
 
 <!-- You can add your additional resources for a specific lesson here, however there is also an additional resources page alongside the conclusion at the end of the workshop website. -->
 ## Additional Resources (optional)
