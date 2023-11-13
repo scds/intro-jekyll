@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 1 - Lesson Name
+title: Lesson 1 - Getting Started
 nav_order: 1
 parent: Lessons
 ---
@@ -11,7 +11,7 @@ Add, edit, or remove any content below for the workshop in question. -->
 <!-- Putting a {: .no_toc} above a header removes it from the table of contents -->
 
 {: .no_toc}  
-# Lesson 1 - Lesson Name 
+# Lesson 1 - Getting Started
 
 A small description about the lesson.
 
@@ -26,23 +26,19 @@ A small description about the lesson.
 </details>
 
 <!-- Here are your learning objectives. Just like in the introduction, but more specific for this lesson. -->
-## Lesson Objectives
-- A learning objective.
-- Second learning objective.
-- Another learning objective.
+## Create a New Repository in GitHub
+1. Sign into GitHub
+2. At the top-right, click the "+" Sign.
+3. Select "New Repository."
+4. Under Owner, select your username.
+5. Under Repository name, type "my-website".
+- You will be redirected to a Quicksetup page. For now, you don't need to touch the settings. We'll return to this page in a moment...
 
-<!-- A video for your lesson (if applicable) -->
-## Lesson Video
-The following video demonstrates each of the steps outlined below in text.
 
-<!-- Place iframe of video here -->
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
-[View original here.](https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false)
+## Create your (local) Jekyll site
 
-<!-- Text content format for your lessons if you don't want to rely on videos, or want to provide another format of learning consumption. -->
-## Sub-Topic
 
-Include a text version of your topic here.
+See: [Jekyll's Quickstart Guide](https://jekyllrb.com/docs/) for more detailed instructions.
 
 ## Another sub-topic
 
