@@ -27,16 +27,21 @@ This hands-on workshop uses [Jekyll](https://jekyllrb.com/docs/installation/). P
 You will have an opportunity to download the data during the workshop; however, if you would like to do so ahead of time, it can be downloaded [here](https://www.google.com).
 -->
 
+<!-- 
+
 {: .warning }
 > This is a warning message. You can use to to mention things like:
 >
 > - Must be a McMaster Student/Staff to access content/software licenses
 > - Windows/MacOS/Linux is not supported
 
+-->
+
+<!-- 
 ### Windows/Mac Installation
 <!-- Usually, linking to an installation guide on the official website of the software is enough, no need to explain how to install. -->
 <!-- If there are additional steps not covered in the installation guide, include them -->
-- Steps for installation.
+<!-- - Steps for installation.
 
     ![An image to show the step above](assets/img/temporaryInstallationGuide.png)
 
@@ -46,3 +51,5 @@ You will have an opportunity to download the data during the workshop; however, 
 - Steps for installation.
 - More steps for installation.
 - More guidance can be found [here](https://www.google.com).
+
+-->
