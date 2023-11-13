@@ -12,10 +12,10 @@ This will be the home page of your module. It should give a small introduction t
 Add, edit, or remove any content below for the workshop in question. -->
 
 <!-- Title slide image. Replace img src with your own, or comment this out. -->
-<img src="assets/img/titleSlide.png" alt="Workshop Title Slide" width="100%">
+<img src="assets/img/jekyll-workshop-title.png" alt="Workshop Title Slide" width="100%">
 
 <!-- Main header -->
-# Less Is More: Create Minimal Websites with Jekyll.
+# Less Is More: Create Minimal Websites with Jekyll
 
 In this workshop, students will learn how to build a lightweight website using Jekyll and GitHub Pages.
 
@@ -28,13 +28,14 @@ Jekyll is an open-source static site generator that offers the best of both worl
 
 <!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->
 - A [GitHub.com](https://www.github.com) account.
-- Installation of [Jekyll](https://www.python.org/downloads/). (This will be covered in the [Preparation](preparation) page)
-- Some familiary with **softwareName/topic here**
+- Installation of [Jekyll](https://jekyllrb.com/docs/installation/). (This will be covered in the [Preparation](preparation) page)
+- Experience with **Git/Version Control** is recommended but not required (See: [Intro to Version Control](https://scds.github.io/intro-git/) module).
+- Some knowledge of with CSS/HTML is also helpful... but not required. You will learn!
 
 <!-- What will the student learn to do, learn to use, etc. -->
 ## Learning Objectives
 By the end of this workshop, you will be able to:
-- Create a GitPages website with Jekyll
+- Create a personal website with GitPages and Jekyll
 - Choose a Jekyll theme
 - Customize the CSS (styling)
 - Create and edit page layout
