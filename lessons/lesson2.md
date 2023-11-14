@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 2 - Commit your Work
+title: Lesson 2 - Upload Website Repo
 nav_order: 2
 parent: Lessons
 ---
