@@ -34,6 +34,7 @@ A small description about the lesson.
 5. Under Repository name, type "my-website".
 - You will be redirected to a Quicksetup page. For now, you don't need to touch the settings. We'll return to this page in a moment...
 
+See: GitHub's 
 
 ## Create your (local) Jekyll site
 
@@ -42,25 +43,62 @@ See: [Jekyll's Quickstart Guide](https://jekyllrb.com/docs/) for more detailed i
 
 ## Modify Gemfile
 
-Include text here.
+1. In the main folder, open the file "Gemfile."
+2. Uncomment the line below, and replace GITHUB-PAGES-VERSION with the latest supported version of the github-pages gem. You can find this version here: "[Dependency versions](https://pages.github.com/versions/)."
+  - e.g. At the time of creating this module, the dependency for GitHub Pages is "228." 
+
+```
+ gem "github-pages", "~> 228", group: :jekyll_plugins
+```
+
+3. Add the following gem
+
+```
+gem "webrick"
+```
+
 
 ## Modify YML file
 
-Include text here.
+The YML file configures the main settings for your website.
+*Note: Make sure you have the correct URL, with proper capitalization and 
+
+1. In the main folder, open the file "_config.yml".
+2. Fill in the following fields:
+- URL (main url) e.g. “https://cmiya.github.io”
+- BaseURL (subpath) e.g. “/my-website”
+- title
+- email
+- description
+- Github_username
 
 <!-- Summarize your learning objectives here. It acts as a reminder to the learner about what they just learned, as well as a checklist for you to make sure you covered everything you wished to cover. -->
 
 ## Test file (locally)
+1. In Terminal, type:
+  
+```
+bundle exec jekyll serve
+```
+   
+1. In your browser (Chrome), visit the URL:
+  
+```
+http://localhost:4000/
+```
 
+If successful, you should see a preview of your page.
 
 ## Key Points / Summary
 
-- Local (computer) vs. Remote (GitHub)
-- Push vs. pull
+- Local (i.e. your computer) vs. Remote (e.g. GitHub)
 - Gemfile
 - YML file
 
-<!-- You can add your additional resources for a specific lesson here, however there is also an additional resources page alongside the conclusion at the end of the workshop website. -->
+<!-- You can add your additional resources for a specific lesson here, however there is also an additional resources page alongside the conclusion at the end of the workshop website.
 ## Additional Resources (optional)
 
+
 - Here, you can list some additional resources the student can access to learn more about this lesson.
+
+ -->
