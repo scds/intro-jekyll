@@ -34,10 +34,35 @@ A small description about the lesson.
 5. Under Repository name, type "my-website".
 - You will be redirected to a Quicksetup page. For now, you don't need to touch the settings. We'll return to this page in a moment...
 
-See: GitHub's 
+See: [GitHub's Guide to Creating a Repo](https://docs.github.com/en/get-started/quickstart/create-a-repo) for more detailed info.
 
-## Create your (local) Jekyll site
+## Install Jekyll and Create Jekyll Site
 
+*Note: To install and run Jekyll, you will need to use your computer's *Command Line* interface.
+
+1. Open Terminal (On a mac, type Cmd + spacebar) and search "Terminal."
+2. In terminall, install the necessary software: Homebrew, chruby, and Ruby (See [Jekyll Installation](https://jekyllrb.com/docs/installation/) for instructions.
+3. Install Jekyll
+```
+gem install jekyll
+```
+4. Install Jekyll bundler
+```
+gem install jekyll bundler
+```
+5. Create your new Jekyll site
+*Note: you can choose any name! Here, I've chosen "my-website."
+```
+jekyll new my-website
+```
+6. Change into your new directory
+```
+cd my-website
+```
+7. Build the website
+```
+bundle exec jekyll serve
+```
 
 See: [Jekyll's Quickstart Guide](https://jekyllrb.com/docs/) for more detailed instructions.
 
@@ -61,7 +86,7 @@ gem "webrick"
 ## Modify YML file
 
 The YML file configures the main settings for your website.
-*Note: Make sure you have the correct URL, with proper capitalization and 
+*Note: Make sure you have the correct URL. Capitalization and backslash placement matters!
 
 1. In the main folder, open the file "_config.yml".
 2. Fill in the following fields:
