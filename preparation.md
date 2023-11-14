@@ -22,6 +22,19 @@ An example is provided below.
 ## 2. Install Jekyll
 This hands-on workshop uses [Jekyll](https://jekyllrb.com/docs/installation/). Please install *Jekyll* in advance of the workshop to be able to participate in it to the fullest extent.
 
+*Note: To install and run Jekyll, you will need to use your computer's *Command Line* interface i.e. Terminal.
+
+- Open Terminal (On a mac, type Cmd + spacebar) and search "Terminal."
+- In terminall, install the necessary software: Homebrew, chruby, and Ruby (See [Jekyll Installation](https://jekyllrb.com/docs/installation/) for instructions.
+- Install Jekyll
+```
+gem install jekyll
+```
+- Install Jekyll bundler
+```
+gem install jekyll bundler
+```
+
 <!-- 
 ## 3. Download website template
 You will have an opportunity to download the data during the workshop; however, if you would like to do so ahead of time, it can be downloaded [here](https://www.google.com).
