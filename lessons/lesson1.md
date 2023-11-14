@@ -36,30 +36,21 @@ A small description about the lesson.
 
 See: [GitHub's Guide to Creating a Repo](https://docs.github.com/en/get-started/quickstart/create-a-repo) for more detailed info.
 
-## Install Jekyll and Create Jekyll Site
+## Create Jekyll Site
 
-*Note: To install and run Jekyll, you will need to use your computer's *Command Line* interface.
+*Note: To install and run Jekyll, you will need to use your computer's *Command Line* interface. See [Installation Instructions](../preparation.md)
 
 1. Open Terminal (On a mac, type Cmd + spacebar) and search "Terminal."
-2. In terminall, install the necessary software: Homebrew, chruby, and Ruby (See [Jekyll Installation](https://jekyllrb.com/docs/installation/) for instructions.
-3. Install Jekyll
-```
-gem install jekyll
-```
-4. Install Jekyll bundler
-```
-gem install jekyll bundler
-```
-5. Create your new Jekyll site
+2. Create your new Jekyll site
 *Note: you can choose any name! Here, I've chosen "my-website."
 ```
 jekyll new my-website
 ```
-6. Change into your new directory
+3. Change into your new directory
 ```
 cd my-website
 ```
-7. Build the website
+4. Build the website
 ```
 bundle exec jekyll serve
 ```
