@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 2 - Lesson Name
+title: Lesson 2 - Commit your Work
 nav_order: 2
 parent: Lessons
 ---
@@ -8,7 +8,7 @@ parent: Lessons
 {: .no_toc}  
 # Lesson 2 - Lesson Name 
 
-A small description about the lesson.
+Commit your work and push to your GitHub repository.
 
 <details markdown="block" class="toc">
   <summary>
@@ -19,18 +19,16 @@ A small description about the lesson.
 {:toc}
 </details>
 
-## Lesson Objectives
-- A learning objective.
-- Second learning objective.
-- Another learning objective.
-
-## Lesson Video
-The following video demonstrates each of the steps outlined below in text.
-
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
-[View original here.](https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false)
-
 ## Sub-Topic
+
+1. In Terminal, stage the changes you made by typing:
+```
+git add .
+```
+2. Commit your 
+```
+git commit -m 'Initial GitHub pages site with Jekyll'
+```
 
 Include a text version of your topic here.
 
