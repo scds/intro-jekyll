@@ -6,9 +6,13 @@ parent: Lessons
 ---
 
 {: .no_toc}  
-# Lesson 2 - Lesson Name 
+# Lesson 2 - Upload Website Repository to GitHub
 
-Commit your work and push to your GitHub repository.
+Files can be stored **locally** (on the computer you are working on) or **remotely** (hosted elsewhere, like on GitHub).
+
+*Sending* file changes to the remote version of your project (i.e. on GitHub) is called a "**push**." If you make changes to your remote version and want to update the local version on your computer, you can *recieve* file changes using a  "**pull**."
+
+Let's see how that works... 
 
 <details markdown="block" class="toc">
   <summary>
@@ -19,32 +23,30 @@ Commit your work and push to your GitHub repository.
 {:toc}
 </details>
 
-## Sub-Topic
+## Commit your work
 
-1. In Terminal, stage the changes you made by typing:
+1. In Terminal, stage the changes you made (i.e. prepare to send) by typing:
 ```
 git add .
 ```
-2. Commit your 
+2. *Commit* your changes and add a description (optional)
 ```
 git commit -m 'Initial GitHub pages site with Jekyll'
 ```
 
-Include a text version of your topic here.
+## Add your GitHub repo as your remote repository
 
-## Another sub-topic
+```
+git remote add origin https://github.com/USER/REPOSITORY.git
+```
 
-Include text here.
+## "Push" files to your remote repo
 
-## Another sub-topic
-
-Include text here.
+```
+git push -u origin main
+```
 
 ## Key Points / Summary
 
-- Remind the student about what they just learned.
-- You can also note down any key information to keep in mind.
-
-## Additional Resources (optional)
-
-- Here, you can list some additional resources the student can access to learn more about this lesson.
+- Local vs. Remote
+- Push vs. Pull
