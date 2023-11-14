@@ -11,8 +11,6 @@ grand_parent: Lessons
 {: .no_toc}  
 # Lesson 3b - Lesson Name 
 
-A small description about the lesson.
-
 <details markdown="block" class="toc">
   <summary>
     Table of Contents
@@ -22,34 +20,31 @@ A small description about the lesson.
 {:toc}
 </details>
 
-## Lesson Objectives
-- A learning objective.
-- Second learning objective.
-- Another learning objective.
+## Located:
+- Subdirectory: _layouts
 
-## Lesson Video
-The following video demonstrates each of the steps outlined below in text.
+<img width="282" alt="layouts-1" src="https://github.com/SpokenWebAlberta/sandbox/assets/13421476/3d43891f-7ac5-4e3e-800b-ec74f36fa82c">
 
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
-[View original here.](https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false)
 
-## Sub-Topic
 
-Include a text version of your topic here.
+## What are layouts?
+- Page layouts are design templates that control how the page content appears.
+- Along with the "default" layout, you can create custom layouts for different types of pages.
 
-## Another sub-topic
+## Liquid
+- Liquid is a templating language used to combine different components into a single page.
+- e.g. The default page includes both 'header' and 'footer'.
 
-Include text here.
+**Syntax:** curly brackets + percentage + 'includes' + .html file
+- {% includes filename.html  %}
 
-## Another sub-topic
+<img width="800" alt="layouts-2" src="https://github.com/SpokenWebAlberta/sandbox/assets/13421476/51de06c7-f987-40f1-911a-fbe9fb361914">
 
-Include text here.
+## Markdown
+- Layouts are combined with Markdown pages (.md files).
+- This is where the page content will appear.
 
-## Key Points / Summary
+**Syntax:**
+- {{content}}
 
-- Remind the student about what they just learned.
-- You can also note down any key information to keep in mind.
-
-## Additional Resources (optional)
-
-- Here, you can list some additional resources the student can access to learn more about this lesson.
+<img width="475" alt="layouts-3" src="https://github.com/SpokenWebAlberta/sandbox/assets/13421476/8d26acc8-e043-4d82-aa25-8368b1154755">
