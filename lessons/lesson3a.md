@@ -41,16 +41,6 @@ grand_parent: Lessons
 - Instructions for building website
 - Do NOT touch!
 
-### SEARCH INDEX SETTINGS
-- Markdown pages have metadata fields (e.g. date, author)
-- Determines which fields to include in the search
-
-### SITE MENU SETTINGS
-- Settings for the drop-down menu
-- Use 'label' and 'sub' to sort
-- Pages must have a 'label' and 'link' to appear in the menu
-
-### SITE FOOTER SETTINGS
-- Like the site menu, footers can include indexes
-- Use 'label' and 'link'
-- Add footer logo (different than main logo) here
+### HEADER_PAGES:
+- Settings for menu
+- Add new links here
