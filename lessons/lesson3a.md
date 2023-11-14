@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 3a - Sub-lesson Name
+title: Lesson 3a - YAML
 nav_order: 1
 
 # Notice the two lines below. Since this is a sub-lesson of a lesson (Lesson 3a), it's parent is lesson 3 and it's grandparent is Lessons. Make sure to include this if you decide to have sub-lessons. 
@@ -9,9 +9,7 @@ grand_parent: Lessons
 ---
 
 {: .no_toc}  
-# Lesson 3a - Lesson Name 
-
-A small description about the lesson.
+# Lesson 3a - YAML
 
 <details markdown="block" class="toc">
   <summary>
@@ -22,34 +20,37 @@ A small description about the lesson.
 {:toc}
 </details>
 
-## Lesson Objectives
-- A learning objective.
-- Second learning objective.
-- Another learning objective.
+## Location: main directory
+- _config.yml
 
-## Lesson Video
-The following video demonstrates each of the steps outlined below in text.
+<img width="267" alt="nav-1" src="https://github.com/SpokenWebAlberta/sandbox/assets/13421476/26df9ebd-3ca9-4b12-a786-e1dc59fecdd8">
 
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
-[View original here.](https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false)
+## What is a YAML?
 
-## Sub-Topic
+- Special file with instructions on how to build the site
 
-Include a text version of your topic here.
+<img width="603" alt="nav-2" src="https://github.com/SpokenWebAlberta/sandbox/assets/13421476/2d5ec972-2541-4ebe-89a9-47f9d5753648">
 
-## Another sub-topic
+## YAML Components
 
-Include text here.
+### MAIN SETTINGS
+- URL/Base URL
+- Header/Footer info: title, logo, copyright
 
-## Another sub-topic
+### BULID SETTINGS
+- Instructions for building website
+- Do NOT touch!
 
-Include text here.
+### SEARCH INDEX SETTINGS
+- Markdown pages have metadata fields (e.g. date, author)
+- Determines which fields to include in the search
 
-## Key Points / Summary
+### SITE MENU SETTINGS
+- Settings for the drop-down menu
+- Use 'label' and 'sub' to sort
+- Pages must have a 'label' and 'link' to appear in the menu
 
-- Remind the student about what they just learned.
-- You can also note down any key information to keep in mind.
-
-## Additional Resources (optional)
-
-- Here, you can list some additional resources the student can access to learn more about this lesson.
+### SITE FOOTER SETTINGS
+- Like the site menu, footers can include indexes
+- Use 'label' and 'link'
+- Add footer logo (different than main logo) here
